@@ -35,7 +35,8 @@
 // Your goal with this assignment is to get all the tests to pass,
 // without modifying any of the testing code.  There are enough
 // unit tests that they serve as a (possibly incomplete) specification
-// of what the code needs to do.
+// of what the code needs to do.  Some of the provided tests pass
+// out of the box without any changes you need to do on your end.
 //
 // HINTS:
 // 1.) The behaviors for `append`, `contains`, and `length` differ
