@@ -39,10 +39,10 @@
 // out of the box without any changes you need to do on your end.
 //
 // HINTS:
-// 1.) The behaviors for `append`, `contains`, and `length` differ
-//     depending on whether or not they are called on `Cons` or `Nil`.
-//     Some tests force you to use virtual dispatch to encode this
-//     difference.
+// 1.) The behaviors for `append`, `contains`, `length`, `filter`,
+//     and `map` differ depending on whether or not they are called
+//     on `Cons` or `Nil`. Some tests force you to use virtual
+//     dispatch to encode this difference.
 // 2.) Singly-linked lists are a recursive data structure, and
 //     the methods can most naturally be implemented with recursion.
 // 3.) My reference solution contains less than 50 lines of code.
