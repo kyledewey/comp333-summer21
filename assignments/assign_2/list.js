@@ -64,7 +64,7 @@
 // join(new Cons(2, new Cons(3, new Nil())), // [2, 3]
 //
 function join(list, delim) {
-    var retval = "[";
+    let retval = "[";
     while (list instanceof Cons &&
            !(list.tail instanceof Nil)) {
         retval += list.head.toString() + delim;
